@@ -17,9 +17,12 @@ public class Main {
        int b = a;
        b++;
 
-       if(!(a % 2 == 0) &&  b % 3 == 0){
+       if(!(b % 2 == 0)){
 
-           System.out.println("it's true");
+           System.out.println("it's odd");
+       }
+       if(b*(b+1) % 3 == 0){
+           System.out.println("it's a multiple of 3");
        }
     }
 }
